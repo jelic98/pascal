@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {$APPTYPE CONSOLE}
 
 var
@@ -20,4 +21,26 @@ begin
 
   readln;
 end.
+=======
+{$APPTYPE CONSOLE}
+
+var
+  t,i,n:longint;
+  res:extended;
+
+begin
+  readln(t);
+
+  for i:=1 to t do
+    begin
+      readln(n);
+
+      res:=sqrt(n+1)-1;
+
+      writeln('Case ',i,': ',trunc(res));
+    end;
+
+  readln;
+end.
+>>>>>>> 1c88b46f80c2c3868de9ed70727efa324560b2fa
  

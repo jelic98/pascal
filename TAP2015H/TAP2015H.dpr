@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {$APPTYPE CONSOLE}
 
 var
@@ -38,3 +39,45 @@ begin
 
   readln;
 end.
+=======
+{$APPTYPE CONSOLE}
+
+var
+  n,m,x,y,i:longint;
+  s:string;
+  z:array [1..1000000] of longint;
+
+begin
+  while(not eof) do
+    begin
+      readln(n);
+
+      x:=0;
+
+      repeat
+        i:=0;
+        y:=n;
+
+        repeat
+          z[i]:=y mod 10;
+
+          writeln(z[i]);
+          inc(i);
+          y:=y div 10;
+        until
+          y = 0;
+
+        for i:=1 to length(z) do
+          begin
+            writeln(z[i]);
+          end;
+
+        n:=0;
+        inc(x);
+      until
+        n <= 0;
+    end;
+
+  readln;
+end.
+>>>>>>> 1c88b46f80c2c3868de9ed70727efa324560b2fa
