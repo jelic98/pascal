@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="C:\lazarus\fpc\2.6.4\bin\i386-win32\fpc.exe" Date="1162572796"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -g -gl -vewnhi -FiC:\Users\Lazar\Desktop\Stuff\Pascal\RESENJA\game_of_life\lazarus\lib\i386-win32 -FuC:\Users\Lazar\Desktop\Stuff\Pascal\RESENJA\game_of_life\lazarus\ -FUC:\Users\Lazar\Desktop\Stuff\Pascal\RESENJA\game_of_life\lazarus\lib\i386-win32\ -l project1.lpr"/>
+</CONFIG>
